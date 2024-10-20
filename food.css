@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xtN0l8kqWGTZRxCh9EzCTatxrFTD1qRvWvDS1X3KlP-7oSd1MSVc1KoNQ42QJf_WFoM&usqp=CAU);
+}
+
+header {
+    background:  rgb(68, 67, 64);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    background: rgb(27, 27, 26);
+    padding: 3px 20px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+}
+.container{
+    display: inline;
+}
+.impact{
+    display: inline;
+}
+.bargraph{
+    display: inline;
+}
+.bgd{
+    background-image: url(https://lovefoodhatewaste.ca/wp-content/uploads/2020/11/FoodBackgroundNomeat.jpg);
+    width: 100%;
+    height: 300px;
+    filter: brightness(50%);
+    text-align: center;
+    font-size: 150px;
+    color: rgb(236, 229, 229);
+}
+.break{
+    background: #fff;
+    padding: 20px;
+    margin: 40px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.food{
+    background-image: url();
+}
