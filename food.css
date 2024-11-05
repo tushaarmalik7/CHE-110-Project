@@ -1,76 +1,124 @@
+/* Updated Body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xtN0l8kqWGTZRxCh9EzCTatxrFTD1qRvWvDS1X3KlP-7oSd1MSVc1KoNQ42QJf_WFoM&usqp=CAU);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f0f0f0;
 }
 
+/* Enhanced Header */
 header {
-    background:  rgb(68, 67, 64);
+    background: #4e4d4b;
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease;
+}
+
+header:hover {
+    background: #6b6967;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
+/* Updated Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
-nav ul li{
-    display: inline;
-    margin-right: 20px;
-    background: rgb(27, 27, 26);
-    padding: 3px 20px;
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background: #1b1b1a;
+    padding: 5px 15px;
     border-radius: 20px;
-    border:2px solid black;
+    border: 2px solid #333;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+nav ul li:hover {
+    background: #333;
+    transform: scale(1.1);
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Main Content */
 main {
     padding: 20px;
-    color: white;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
 }
 
 section {
     margin-bottom: 30px;
 }
 
+/* Headings */
 h2 {
-    color: white;
+    color: #d1d1d1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-.container{
-    display: inline;
-}
-.impact{
-    display: inline;
-}
-.bargraph{
-    display: inline;
-}
-.bgd{
+
+/* Background Section */
+.bgd {
     background-image: url(https://lovefoodhatewaste.ca/wp-content/uploads/2020/11/FoodBackgroundNomeat.jpg);
     width: 100%;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    color: #ece5e5;
     filter: brightness(50%);
     text-align: center;
-    font-size: 150px;
-    color: rgb(236, 229, 229);
+    transition: filter 0.3s ease;
 }
-.break{
-    background: #fff;
+
+.bgd:hover {
+    filter: brightness(70%);
+}
+
+/* Section Break Styling */
+.break {
+    background: #f9f9f9;
     padding: 20px;
     margin: 40px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
 }
-.food{
-    background-image: url();
+
+.break:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Add pop-up effect for sections */
+section:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+/* Example Animation for Rotation */
+.impact, .bargraph, .container {
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.impact:hover, .bargraph:hover, .container:hover {
+    transform: rotate(3deg);
 }
